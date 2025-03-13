@@ -21,7 +21,6 @@
     background-size: cover; 
     flex-direction: column;
     align-items: center;
-    height: 100vh;
 }
 
 .content {
@@ -106,3 +105,4 @@
 .span {
     color: #ff43b1;
 }
+
