@@ -14,6 +14,7 @@ export default function Cadastro() {
                         <input className="input" type="text" name="username" placeholder="Name" />
                         <input className="input" type="password" name="password" placeholder="Email" />
                         <input className="input" type="password" name="password" placeholder="Password" />
+                        <input className="input" type="password" name="password" placeholder="Confirm Password" />
                         <Button text="Cadastre-se" />
                     </form>
                 </div>

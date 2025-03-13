@@ -9,7 +9,7 @@ export default function Sobre() {
         <div className="container">
             <Post image={livro1} title="É Assim Que Acaba 🌸" text="Entre e conheça É Assim Que Acaba. Uma história que vai mexer com suas emoções e refletir sobre os limites do amor e da superação. 📑" />
             <Post image={livro2} title="Bienal do Livro 2024 📚" text="Entre e explore tudo o que a Bienal do Livro tem a oferecer: uma verdadeira celebração da literatura, com lançamentos, autores e muito mais! 💌" />
-            <Post image={livro3} title="Posts Its 📖" text="Descubra as melhores dicas e aprenda como usar de forma eficiente! Navegue pelos nossos Posts It’s e comece a aplicar as ideias! ✨" />
+            <Post image={livro3} title="Post Its 📖" text="Descubra as melhores dicas e aprenda como usar de forma eficiente! Navegue pelos nossos Posts It’s e comece a aplicar as ideias! ✨" />
         </div>
     );
 }

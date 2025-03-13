@@ -106,3 +106,21 @@
 .span {
     color: #ff43b1;
 }
+
+/* Responsividade: Desktop */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .content {
+        width: 27rem;
+        height: 40rem;
+    }
+
+    .form {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .texts {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}
