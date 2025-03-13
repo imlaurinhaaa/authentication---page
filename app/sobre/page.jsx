@@ -1,19 +1,13 @@
-import styles from "../../styles/Sobre.module.css"
-import Image from "next/image";
+import styles from "./Sobre.module.css"
 import livro1 from "../../public/ÉAssimQueAcaba.png";
+import Post from "../../components/Post";
 
 export default function Sobre() {
     return (
         <div className={styles.container}>
-            <div className={styles.line1}>
-                <div className={styles.content}>
-                <Image className={styles.img} src={livro1} alt="" />
-                <div className={styles.texts}>
-                    <h1 className={styles.title}>É Assim Que Acaba 🤍🌸</h1>
-                    <p className={styles.text}>Resenha Literária 📑</p>
-                </div>
-                </div>
-            </div>
+            <Post image={livro1} title="É Assim Que Acaba 🤍🌸" text="Resenha Literária 📑" />
+            <Post image={livro1} title="É Assim Que Acaba 🤍🌸" text="Resenha Literária 📑" />
+            <Post image={livro1} title="É Assim Que Acaba 🤍🌸" text="Resenha Literária 📑" />
         </div>
     );
 }

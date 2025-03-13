@@ -1,4 +1,4 @@
-import styles from "../../styles/Cadastro.module.css"
+import styles from "./Cadastro.module.css"
 import Image from "next/image";
 import logo from "../../public/logo.png";
 import Button from "../../components/Button";
