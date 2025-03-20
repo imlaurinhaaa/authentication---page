@@ -11,7 +11,7 @@
     color: #ffffff;
     font-family: "Poppins", sans-serif;
     border: 2px solid #ff43b1;
-    width: 80%;
+    width: 70%;
     height: 2.5rem;
     margin-top: 1rem;
     padding: 0.5rem 1rem;
@@ -26,4 +26,11 @@
     background-color: #ee008b;
     border: 2px solid #ee008b;
     color: #ffffff;
+}
+
+/* Responsividade: Celular */
+@media (max-width: 768px) {
+    .button {
+        width: 80%;
+    }
 }

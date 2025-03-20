@@ -107,20 +107,61 @@
     color: #ff43b1;
 }
 
-/* Responsividade: Desktop */
-@media screen and (min-width: 1024px) and (max-width: 1440px) {
+/* Responsividade: Celular */
+@media (max-width: 768px) {
     .content {
-        width: 27rem;
-        height: 40rem;
+        width: 20rem;
+        height: 30rem;
     }
 
-    .form {
-        width: 100%;
-        padding: 1rem;
+    .logo {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .input {
+        width: 80%;
+    }
+
+    .label {
+        margin-right: 6rem;
     }
 
     .texts {
-        width: 100%;
+        width: 20rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+/* Responsividade: Desktop */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .content {
+        width: 24rem;
+        height: 34rem;
+    }
+
+    .logo {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .input {
+        width: 70%;
+    }
+
+    .label {
+        margin-right: 7rem;
+    }
+
+    .texts {
         margin-bottom: 2rem;
     }
 }

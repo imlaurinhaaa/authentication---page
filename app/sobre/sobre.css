@@ -14,11 +14,21 @@
 }
 
 .container {
-    display: flex;
-    justify-content: center;
     background-image: url('/background.jpg');
     background-size: cover;
+}
+
+.content {
+    display: flex;
     flex-direction: row;
     align-items: center;
-    height: 100vh;
+    justify-content: center;
+}
+
+/* Responsividade: Celular */
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        
+    }
 }
