@@ -3,11 +3,9 @@ import Image from "next/image";
 import logo from "../../public/logo.png";
 import Button from "../../components/Button";
 
-export const metadata = {
-    title: "Login 🌷📚",
-};
 
 export default function Login() {
+
     return (
         <div className="container">
             <div className="content">
