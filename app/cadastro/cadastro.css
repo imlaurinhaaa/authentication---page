@@ -107,6 +107,19 @@
     color: #ff43b1;
 }
 
+.error-text {
+    color: red;
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.error-text.success {
+    color: green;
+    font-size: 1rem;
+    font-family: 'Patrick Hand', cursive;
+}
+
 /* Responsividade: Celular */
 @media (max-width: 768px) {
     .content {
